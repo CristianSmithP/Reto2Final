@@ -1,0 +1,84 @@
+body {
+    background-image: url(https://media.istockphoto.com/photos/background-picture-id498957103?b=1&k=20&m=498957103&s=170667a&w=0&h=mshps8FdTdK0nF7xI_TteXzcwgW6uPUUdFxc1Ha3uRI=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.create {
+    background-color:  #fffefe; 
+    color: black; 
+    border: 3px solid #fffefe;
+}
+
+.create:hover {
+    background-color: #5fb5b7;
+    color: white;
+}
+.read {
+    background-color:  #fffefe; 
+    color: black; 
+    border: 3px solid #fffefe;
+}
+.read:hover {
+    background-color: #5fb5b7;
+    color: white;
+}
+
+/*Menu de contenido*/
+.update {
+    background-color:  #fffefe; 
+    color: black; 
+    border: 3px solid #fffefe;
+}
+.update:hover {
+    background-color: #63b2cd;
+    color: white;
+}
+.delete {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #ffffff;
+}
+
+.delete:hover {
+    background-color: #bd0101;
+    color: white;
+}
+.atras {
+    background-color: white; 
+    color: black; 
+    border: 3px solid #ffffff;
+}
+
+.atras:hover {
+    background-color: #1e9bf5;
+    color: white;
+}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;    margin: 45px;     width: 80%; text-align: left;    border-collapse: collapse; }
+
+th { font-size: 16px;     font-weight: normal;     padding: 8px;     background:  #6bb9d1;
+    border-top: 4px solid  #6bb9d1;    border-bottom: 1px solid #a8d7e9; color: rgb(0, 0, 0); }
+
+td {    padding: 8px;     background: #a8d7e9;     border-bottom: 1px solid #a8d7e9;
+    color: rgb(16, 16, 16);    border-top: 1px solid transparent; }
+
+tr:hover td { background: rgb(226, 226, 226); color: rgb(0, 0, 0); }
